@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="af.apps.android.moslslat.SplashActivity">
+
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:rotation="-20"
+        android:id="@+id/imageView"
+        android:background="@drawable/icontvforsplach"
+        tools:ignore="ContentDescription,RtlHardcoded"
+        android:layout_marginRight="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginTop="55dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="مسلسلات"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:rotation="-24"
+        android:layout_marginTop="136dp"
+        android:id="@+id/textView"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/downloadiconsplash"
+        android:id="@+id/imageView3"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/playiconsplash"
+        android:id="@+id/imageView2"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shareiconsplash"
+        android:id="@+id/imageView4"
+        tools:ignore="ContentDescription"
+        android:layout_marginBottom="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

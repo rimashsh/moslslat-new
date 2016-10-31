@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">مسلسلات</string>
+    <string-array name="mainstring">
+        <item>مسلسلات سورية</item>
+        <item>مسلسلات الدراما</item>
+        <item>مسلسلات كوميديا</item>
+        <item>مسلسلات دراما كلاسيكية</item>
+        <item>مسلسلات مصرية</item>
+        <item>مسلسلات سورية كلاسيكية</item>
+    </string-array>
+    <string-array name="stringarrayitem1">
+        <item>مسلسل رجال تحت طربوش</item>
+        <item>مسلسل رجال ونساء</item>
+        <item>مسلسل اشواك ناعمة</item>
+        <item>مسلسل بكرا احلى</item>
+        <item>مسلسل سنعود بعد قليل</item>
+    </string-array>
+    <string name="title_activity_recycler_one">RecyclerOne</string>
+</resources>
